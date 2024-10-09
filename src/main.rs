@@ -1,3 +1,4 @@
+mod minimum_difference;
 mod seat_manager;
 mod time_required_to_buy;
 
