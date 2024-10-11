@@ -1,4 +1,5 @@
 mod minimum_difference;
+mod number_of_pairs;
 mod seat_manager;
 mod time_required_to_buy;
 
