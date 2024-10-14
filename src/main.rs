@@ -1,6 +1,7 @@
 mod minimum_difference;
 mod number_of_pairs;
 mod seat_manager;
+mod super_egg_drop;
 mod time_required_to_buy;
 
 fn main() {

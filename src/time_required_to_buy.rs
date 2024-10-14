@@ -1,5 +1,6 @@
 #[cfg(test)]
 mod test {
+    use std::collections::HashSet;
 
     #[test]
     fn test_2703() {
@@ -20,5 +21,24 @@ mod test {
             }
         }
         return result;
+    }
+
+    #[test]
+    fn test_3158() {
+        assert_eq!(duplicate_numbers_xor(vec![1, 2, 1, 3]), 1);
+    }
+
+    pub fn duplicate_numbers_xor(nums: Vec<i32>) -> i32 {
+        let mut cnt = HashSet::new();
+        let mut res = 0;
+
+        for num in nums {
+            if cnt.contains(&num) {
+                res ^= num;
+            } else {
+                cnt.insert(num);
+            }
+        }
+        res
     }
 }
