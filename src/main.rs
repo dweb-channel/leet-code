@@ -1,5 +1,8 @@
+// mod max_height_of_triangle;
+mod minimum_average;
 mod minimum_difference;
 mod number_of_pairs;
+mod remaining_methods;
 mod seat_manager;
 mod super_egg_drop;
 mod time_required_to_buy;
