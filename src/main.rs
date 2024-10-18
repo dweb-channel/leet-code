@@ -6,6 +6,7 @@ mod remaining_methods;
 mod seat_manager;
 mod super_egg_drop;
 mod time_required_to_buy;
+mod min_operations;
 
 fn main() {
     println!("Hello, world!");
