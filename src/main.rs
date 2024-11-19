@@ -7,6 +7,7 @@ mod seat_manager;
 mod super_egg_drop;
 mod time_required_to_buy;
 mod min_operations;
+mod shortest_distance_after_queries;
 
 fn main() {
     println!("Hello, world!");
